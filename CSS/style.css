@@ -15,9 +15,12 @@ div
     border: 5px solid black;
     border-radius: 5px;
 }
-.p1, .p2{
-    font-size: 20px;
+.s1, .s2{    
     color: black;
+    font-weight: bold;
+}
+.p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
     
