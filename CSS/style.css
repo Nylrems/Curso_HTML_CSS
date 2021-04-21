@@ -5,10 +5,20 @@ div
         border: 5px solid gray;
         background-color: indianred;
         color: ivory;
-        width: 400px;
+        width: 700px;
         height: auto;
         font-family: sans-serif;
         font-style: italic;
     }
+#special{
+    background-color: lightslategray;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.p1, .p2{
+    font-size: 20px;
+    color: black;
+}
+
     
 
