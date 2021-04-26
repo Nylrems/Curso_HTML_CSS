@@ -1,19 +1,22 @@
 div 
     {
-        margin: 25px;
-        padding: 15px;
+        margin: 15px;
+        padding: 20px;
         border: 5px solid gray;
         background-color: indianred;
         color: ivory;
-        width: 700px;
+        width: 600px;
         height: auto;
         font-family: sans-serif;
         font-style: italic;
+        border-radius: 25px;
+        font-size: 15px;
+        box-shadow: 5px 5px 15px black;
     }
 #special{
     background-color: lightslategray;
     border: 5px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 .s1, .s2{    
     color: black;
