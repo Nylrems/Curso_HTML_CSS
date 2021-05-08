@@ -28,7 +28,7 @@ body{
     background-color: rgb(11, 138, 197);
 }
 .main-menu > ul{
-    margin: opx;
+    margin: 0px;
     padding: 0px;
     list-style-type: none;
 }
@@ -44,5 +44,26 @@ body{
     font-family: sans-serif;
 }
 .main-menu > ul > li > a:hover{
-    background-color: brown;
+    background-color: rgb(76, 123, 145);
+}
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+.drop > li> a{
+    color: azure;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    background-color: rgb(6, 54, 77);
+}
+.drop > li> a:hover{
+    background-color: rgb(76, 123, 145);
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
 }
