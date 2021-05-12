@@ -63,6 +63,10 @@ body{
 .main-menu > ul > li:hover .drop{
     display: block;
 }
+#imagen1{
+    width: 1000px;
+    height: 417px;
+}
 .banner{
     width: 1000px;
     height: 416.66px;
