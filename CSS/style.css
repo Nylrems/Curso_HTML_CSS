@@ -28,7 +28,7 @@ body{
     padding: 0px;
     list-style-type: none;
 }
-.main-menu > ul > li{
+.main-menu > ul > li{ 
     display: inline-block;
 
 }
@@ -78,13 +78,14 @@ body{
     height: auto;
 }
 .content-holder{
-    background-color: rgb(104, 241, 207);
+    background-color: rgb(72, 179, 152);
 }
 .content{
     width: 700px;
     height: auto;
     padding: 25px;
     background-color: white;
+    float: left;
 }
 .content h1{
     font-size: 1.5em;
@@ -93,4 +94,25 @@ body{
 .content p{
     font-family: sans-serif;
     font-size: small;
+}
+.sidebar{
+    float: left;
+    padding: 35px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
 }
