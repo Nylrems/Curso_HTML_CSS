@@ -174,3 +174,6 @@ body{
     position: relative; margin: 10px 0 0 50%  ;
     
 }
+.content img{
+    max-width: 100%;
+}
