@@ -177,3 +177,33 @@ body{
 .content img{
     max-width: 100%;
 }
+.product{
+    width: 211.33px;
+    height: auto;
+    float: left;
+    border:1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.product-caption p{
+    color: red;
+}
+.product-caption del{
+    color: red;
+}
+.product-caption ins{
+    color: green;
+}
+.product-caption a{
+    display: block;
+    background-color: rgb(76, 123, 145);
+    padding: 8px;
+    text-align: center;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+}
+.product-caption a:hover{
+    background-color: rgb(6, 54, 77);
+}
