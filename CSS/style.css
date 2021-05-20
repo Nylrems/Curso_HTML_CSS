@@ -207,3 +207,8 @@ body{
 .product-caption a:hover{
     background-color: rgb(6, 54, 77);
 }
+.banner iframe{
+    width: 100%;
+    height: 416.66px;
+
+}
